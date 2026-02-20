@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Банк Ардэнннн 💰</title>
+<style>
+    body {
+        background: #111;
+        color: white;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-top: 100px;
+    }
+    .card {
+        background: #1e1e1e;
+        padding: 30px;
+        border-radius: 15px;
+        width: 300px;
+        margin: auto;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        background: limegreen;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    button:hover {
+        background: green;
+        color: white;
+    }
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Банк Ардэнннн 💰</h1>
+    <p>Ваш баланс:</p>
+    <h2>9 999 999 ₴</h2>
+    <button onclick="prank()">Вывести средства</button>
+</div>
+
+<script>
+function prank() {
+    alert("Это был пранк, Ардэнннн 😈");
+}
+</script>
+
+</body>
+</html>
